@@ -1,1 +1,40 @@
-
+{
+  "spider": "https://tv.521810.xyz/spider.jar",
+  "wallpaper": "https://bing.img.run/uhd.php",
+  "sites": [
+    {
+      "key": "豆瓣",
+      "name": "豆瓣┃热映",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 1
+    },
+    {
+      "key": "南瓜",
+      "name": "南瓜┃影视",
+      "type": 3,
+      "api": "csp_NanGua",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "csp_Bili",
+      "name": "哔哩┃影视",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    }
+  ],
+  "lives": [
+    {
+      "name": "在线直播",
+      "type": 0,
+      "url": "https://tv.521810.xyz/live.txt",
+      "playerType": 1
+    }
+  ]
+}
